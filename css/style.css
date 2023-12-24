@@ -1,0 +1,91 @@
+* {
+    font-family: Montserrat, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* header {
+    width: 100vw;
+    height: 100vh;
+} */
+
+.titles {
+    position: relative;
+    text-align: center;
+}
+
+.titles h1 {
+    font-size: 4rem;
+}
+
+.titles h2 {
+    color: gray;
+}
+
+.expand-more {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 5rem;
+}
+
+main {
+    padding: 1rem 3rem;
+    max-width: 1366px;
+    margin: auto;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+img {
+    max-width: 29vw;
+    margin: 1vw;
+}
+
+.g {
+    margin-top: 2rem;
+}
+
+a {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    background-color: green;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
